@@ -9,7 +9,9 @@ in database test2 we need to create table named 'pdo'
 | Field    | Type        | Null | Key | Default | Extra          |
 
 | id       | int(10)     | NO   | PRI | NULL    | auto_increment |
+
 | username | varchar(20) | NO   |     | NULL    |                |
+
 | password | varchar(20) | NO   |     | NULL    |                |
 
 /////
@@ -20,8 +22,11 @@ With fields and types like those
 | Field   | Type         | Null | Key | Default             | Extra                         |
 
 | id      | int(11)      | NO   | PRI | NULL                | auto_increment                |
+
 | user    | varchar(255) | YES  |     | NULL                |                               |
+
 | message | text         | YES  |     | NULL                |                               |
+
 | date    | timestamp    | NO   |     | current_timestamp() | on update current_timestamp() |
 
 /////

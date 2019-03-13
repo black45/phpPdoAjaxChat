@@ -5,25 +5,25 @@ To test my example first of all you need to create 2 databases
 in database test2 we need to create table named 'pdo'
 //////
 3)With fields and types like those
-+----------+-------------+------+-----+---------+----------------+
+
 | Field    | Type        | Null | Key | Default | Extra          |
-+----------+-------------+------+-----+---------+----------------+
+
 | id       | int(10)     | NO   | PRI | NULL    | auto_increment |
 | username | varchar(20) | NO   |     | NULL    |                |
 | password | varchar(20) | NO   |     | NULL    |                |
-+----------+-------------+------+-----+---------+----------------+
+
 /////
 4)in database chat_system we need create database chat  
 //////
 With fields and types like those
-+---------+--------------+------+-----+---------------------+-------------------------------+
+
 | Field   | Type         | Null | Key | Default             | Extra                         |
-+---------+--------------+------+-----+---------------------+-------------------------------+
+
 | id      | int(11)      | NO   | PRI | NULL                | auto_increment                |
 | user    | varchar(255) | YES  |     | NULL                |                               |
 | message | text         | YES  |     | NULL                |                               |
 | date    | timestamp    | NO   |     | current_timestamp() | on update current_timestamp() |
-+---------+--------------+------+-----+---------------------+-------------------------------+
+
 /////
 then you need to install apache 
 in arch linux

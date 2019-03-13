@@ -1,0 +1,73 @@
+body{
+	background: black;
+	padding: 5px;
+}
+#login{
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	width: 5.5%;
+	height: 5%;	
+	border: none;
+	border-radius: 3;
+	background: #c7dbdc;
+}
+
+#login:hover{
+	transition: 1s;
+	background: #a0afaf;
+}
+
+#mainContainer{
+	background: #c7dbdc;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+#roomsContainer{
+	background: #242633;
+	height: 100%;
+	width: 7%;
+}
+#messageArea {
+	background: #242633;
+	bottom: 10px;
+	width: 80%;
+	max-width: 1300px;
+	min-width: 100px;
+	height: 40px;
+	color: #c7dbdc;
+	border: none;
+	position: absolute;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-right: 10%;
+	margin-left: 8%;
+}
+
+.message {
+	background: #242633;
+	right: 30px;
+	padding: 10px;
+	color: #c7dbdc;
+	position: absolute;
+	text-align: center;
+
+}
+#sendButton{
+	background: #242633;
+	width: 9%;
+	height: 40px;
+	color: #c7dbdc;
+	border: none;
+	position: absolute;
+	right:    10px;
+	bottom:   10px;
+	border-radius: 10px; 
+}
+#sendButton:hover{
+	transition: 1s;
+	background: #0e0f14;
+}
